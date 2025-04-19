@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to TamuTalk! {% endblock %}</h1>
+
+    
+    <div id="chatBox" style="height: 250px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;"></div>
+    <form id="chat-form" style="display: flex; align-items: center;">
+        <input type="text" id="message" placeholder="Type your message..." required />
+        <button type="submit">Send</button>
+    </form>
+    
+    <!-- ✅ Place script here -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+{% endblock %}
