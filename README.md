@@ -40,5 +40,11 @@ pip install -r requirements.txt
 add chatbot_training_data.json file inside the project directory. This contains intents, patterns and responses.
 
 ### 4. Run the Chatbot Server
-flask run
+write a command "flask run" on your terminal or cmd 
 ![image alt](https://github.com/GloryMsasalaga/TamuTalk/blob/master/Screenshot%202025-04-21%20205854.png?raw=true)
+
+### 5. 🔒Disclaimer
+TamuTalk provides food and general health suggestions only. It is not a substitute for professional medical advice.
+
+### 6. 🤝Contributions
+Pull request are welcome....For major changes, open an issue first to discuss what you'd like to change.
