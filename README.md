@@ -41,3 +41,5 @@ add chatbot_training_data.json file inside the project directory. This contains 
 
 ### 4. Run the Chatbot Server
 flask run
+![Chatbot vs User exchanging conversation](C:\Users\hp\OneDrive\Documents\food\flask-template\Screenshot 2025-04-21 205854.png)
+
