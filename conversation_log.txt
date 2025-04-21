@@ -1,0 +1,39 @@
+User: habari za asubuhi!
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
+User: Nina shilingi 1000 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: ninahitaji ushauri
+Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
+--------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: Nina shilingi 1000 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: Nina shilingi 1000 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: thank you have a nice day!
+Bot: I'm not sure how to help with that. Can you please clarify?
+--------------------------------------------------
+User: thank you
+Bot: I'm not sure how to help with that. Can you please clarify?
+--------------------------------------------------
+User: asante nakutakia siku njema
+Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
+--------------------------------------------------

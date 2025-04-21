@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     background-color: lightslategray;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,4 +75,47 @@ button:hover {
     margin: 5px;
     padding: 8px;
     border-radius: 10px;
+} */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.chat-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 300px;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-container button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.user-message {
+    background-color: #e6f7ff;
+    text-align: right;
+}
+.server-message{
+    background-color: #f1f1f1;
 }
