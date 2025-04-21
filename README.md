@@ -41,4 +41,4 @@ add chatbot_training_data.json file inside the project directory. This contains 
 
 ### 4. Run the Chatbot Server
 flask run
-
+![image alt](https://github.com/GloryMsasalaga/TamuTalk/blob/master/Screenshot%202025-04-21%20205854.png?raw=true)
