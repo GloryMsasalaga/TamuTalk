@@ -48,3 +48,7 @@ TamuTalk provides food and general health suggestions only. It is not a substitu
 
 ### 6. 🤝Contributions
 Pull request are welcome....For major changes, open an issue first to discuss what you'd like to change.
+### 7. 👩‍💻 Created by
+Glory Lazaro Msasalaga
+Data Scientist | IoT Expert | AI/ML engineer
+Tanzania 🇹🇿
