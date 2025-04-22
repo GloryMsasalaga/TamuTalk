@@ -1,7 +1,7 @@
 import json
 import re
 import logging
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from googletrans import Translator
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -148,6 +148,10 @@ app = Flask(__name__)
 load_file = r'C:\Users\hp\OneDrive\Documents\food\flask-template\chatbot_training_data.json'
 bot = Chatbot(load_file)
 
+@app.route('/')
+def home():
+    return render_template('home.html')
+
 @app.route('/chat', methods=['POST'])
 def chat():
     user_message = request.json.get('message', '')
@@ -173,15 +177,10 @@ def retrain():
     bot.__init__(r'C:\Users\hp\OneDrive\Documents\food\flask-template\chatbot_training_data.json')
     return jsonify({'message': 'Retraining complete'})
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
-    
-    
-    # print(bot.respond("Habari!"))
-    # while True:
-    #     msg = input("You: ")
-    #     resp = bot.respond(msg)
-    #     print(f"Bot: {resp}")
-    #     if any(b in msg.lower() for b in bot.farewells):
-    #         break
     
