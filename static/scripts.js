@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("chat-form");
     const inputElement = document.getElementById("message");
     const chatBox = document.getElementById("chatBox");
 
-    form.addEventListener("submit", function (e) {
+    form.addEventListener("submit", function(e) {
         e.preventDefault();
 
         try {
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 alert("Please type a message.");
                 return;
             }
-            
+
             // Display the user's message in the chat box
             addMessage(userMessage, true);
 
@@ -21,35 +21,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Send the message to the server
             fetch('http://127.0.0.1:5000/chat', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ message: userMessage }),
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log("Server response:", data);
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: userMessage }),
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log("Server response:", data);
 
-                // Assuming server sends { response: "English..", swahili: "Swahili.." }
-                const botResponse = data.swahili || data.response;
-                addMessage(botResponse, false);
-            })
-            .catch(error => {
-                console.error("An error occurred while sending the message:", error.message);
-                addMessage("Error: Unable to communicate with the server.", false);
-            });
+                    // Assuming server sends { response: "English..", swahili: "Swahili.." }
+                    const botResponse = data.swahili || data.response;
+                    addMessage(botResponse, false);
+                })
+                .catch(error => {
+                    console.error("An error occurred while sending the message:", error.message);
+                    addMessage("Error: Unable to communicate with the server.", false);
+                });
         } catch (error) {
             console.error("An error occurred:", error.message);
         }
 
         inputElement.value = ""; // Clear input field
         chatBox.scrollTop = chatBox.scrollHeight; // Scroll to the bottom
+    });
+
+    inputElement.addEventListener('input', () => {
+        textarea.style.height = 'auto';
+        textarea.style.height = textarea.scrollHeight + 'px';
     });
 
     function addMessage(text, isUser) {

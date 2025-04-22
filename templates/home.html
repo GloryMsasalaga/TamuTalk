@@ -1,13 +1,20 @@
 {% extends 'base.html' %} {% block content %}
 <div class="container">
-    <h1>{% block title %} How can I help? {% endblock %}</h1>
+    <div class="wrapper">
+        <h1>{% block title %} How can I help? {% endblock %}</h1>
 
 
-    <div id="chatBox" class="chat-box"></div>
-    <form id="chat-form" class="input-container" style="display: flex; align-items: center;">
-        <input type="text" id="message" placeholder="Type your message..." required />
-        <button type="submit" class="send-btn">Send</button>
-    </form>
+        <div id="chatBox" class="chat-box"></div>
+        <form id="chat-form" class="input-container" style="display: flex; align-items: center;">
+            <textarea id="message" placeholder="Type your message..." required></textarea>
+            <div class="buttons-wrapper">
+                <div class="prompt-buttons-wrapper"></div>
+                <div class="send-buttons-wrapper">
+                    <button type="submit" class="send-btn"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
 
 <!-- ✅ Place script here -->
