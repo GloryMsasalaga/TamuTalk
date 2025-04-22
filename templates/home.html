@@ -1,15 +1,15 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+    <h1>{% block title %} How can I help? {% endblock %}</h1>
 
-{% block content %}
-    <h1>{% block title %} Welcome to TamuTalk! {% endblock %}</h1>
 
-    
-    <!-- div id="chatBox" style=""></div -->
-    <form id="chat-form" style="display: flex; align-items: center;">
+    <div id="chatBox" class="chat-box"></div>
+    <form id="chat-form" class="input-container" style="display: flex; align-items: center;">
         <input type="text" id="message" placeholder="Type your message..." required />
-        <button type="submit">Send</button>
+        <button type="submit" class="send-btn">Send</button>
     </form>
-    
-    <!-- ✅ Place script here -->
-    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</div>
+
+<!-- ✅ Place script here -->
+<script src="{{ url_for('static', filename='scripts.js') }}"></script>
 {% endblock %}
