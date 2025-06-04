@@ -52,8 +52,8 @@
     "intent": "exercise"
   },
   {
-    "text": "I have 1000 shillings and I want to buy drinks, please suggest a drink",
-    "intent": "drink_suggestion"
+    "text": "I have 1000 shillings and I want to buy food, please suggest a meal",
+    "intent": "food_suggestion"
   },
   {
     "text": "I  have 800 shillings and I want to buy good food, I am following my diet, please suggest a meal",

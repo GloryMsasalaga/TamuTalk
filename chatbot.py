@@ -83,7 +83,7 @@ class Chatbot:
         intent = self.get_intent(text)
         
         # Generate response
-        if intent in ['food', 'food_suggestion_diet', 'food_suggestion', 'drink_suggestion']:
+        if intent in ['food', 'food_suggestion_diet', 'food_suggestion', 'drink_suggestion', 'drink']:
             tier = ('low' if not budget or budget < 1000
                     else 'medium' if budget < 2500
                     else 'high')

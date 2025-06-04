@@ -37,3 +37,167 @@ Bot: I'm not sure how to help with that. Can you please clarify?
 User: asante nakutakia siku njema
 Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
 --------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: i have 1000 what healthy food should i take?
+Bot: I'm not sure how to help with that. Can you please clarify?
+
+Extracted entities:
+Budget: 1000
+Food: ['food']
+--------------------------------------------------
+User: Nina shilingi 1000 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: I have 1000 shillings and I want to buy drinks, please suggest a drink
+Bot: Based on your budget (1000), try: pilau, ugali, wali nyama.
+
+Extracted entities:
+Budget: 1000
+--------------------------------------------------
+User: asante nakutakia siku njema
+Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
+--------------------------------------------------
+User: habari za asubuhi!
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: I have 1000 shillings and I want to buy drinks, please suggest a drink
+Bot: Based on your budget (1000), try: pilau, ugali, wali nyama.
+
+Extracted entities:
+Budget: 1000
+--------------------------------------------------
+User: I have 1500 shillings and I want to buy delicious food today
+Bot: Based on your budget (1500), try: pilau, ugali, wali nyama.
+
+Extracted entities:
+Budget: 1500
+Food: ['food']
+--------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: I have 1000 shillings and I want to buy drinks, please suggest a drink
+Bot: Based on your budget (1000), try: pilau, ugali, wali nyama.
+
+Extracted entities:
+Budget: 1000
+--------------------------------------------------
+User: I  have 800 shillings and I want to buy good food, I am following my diet, please suggest a meal
+Bot: Based on your budget (800), try: soda, juice, water.
+
+Extracted entities:
+Budget: 800
+Food: ['food', 'meal']
+--------------------------------------------------
+User: nina ugonjwa wa moyo, nipe chakula cha afya
+Bot: Kulingana na bajeti yako (hakuna), jaribu: soda, juisi, maji.
+
+Vyombo vilivyotolewa:
+Afya: ['Moyo']
+Chakula: ['Chakula']
+--------------------------------------------------
+User: hi
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: i have 100, suggest a food
+Bot: I'm not sure how to help with that. Can you please clarify?
+
+Extracted entities:
+Budget: 100
+Food: ['food']
+--------------------------------------------------
+User: Nina shilingi 1000 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: Nina shilingi 500 nitapenda chakula kitamu leo
+Bot: Kulingana na bajeti yako (500), jaribu: soda, juisi, maji.
+
+Vyombo vilivyotolewa:
+Bajeti: 500
+Chakula: ['Chakula']
+--------------------------------------------------
+User: hi
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: Nina shilingi 1000 ni chakula gani kitamu cha kula?
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: habari
+Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
+--------------------------------------------------
+User: habari za mchana
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
+User: hello!
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: habari!
+Bot: Sina hakika jinsi ya kusaidia na hiyo.Tafadhali unaweza kufafanua?
+--------------------------------------------------
+User: habari za mchana!
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
+User: nina 1000 ni chakula gani ninaweza kupata
+Bot: Kulingana na bajeti yako (1000), jaribu: Pilau, Ugali, Wali Nyama.
+
+Vyombo vilivyotolewa:
+Bajeti: 1000
+Chakula: ['Chakula']
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: i have 1000, i need food
+Bot: Based on your budget (1000), try: pilau, ugali, wali nyama.
+
+Extracted entities:
+Budget: 1000
+Food: ['food']
+--------------------------------------------------
+User: what about ugali?
+Bot: I'm not sure how to help with that. Can you please clarify?
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: habari za mchana!
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
+User: hello
+Bot: Hello! How can I help you today?
+--------------------------------------------------
+User: habari za asubuhi!
+Bot: Habari! Naweza kukusaidia vipi leo?
+--------------------------------------------------
