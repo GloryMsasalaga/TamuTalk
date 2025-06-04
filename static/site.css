@@ -6,9 +6,8 @@
 
 body {
     width: 100vw;
-    height: 100%;
+    height: 100dvh;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, rgba(255, 228, 240, 0.8), rgba(255, 252, 220, 0.8));
 }
 
 
@@ -93,7 +92,7 @@ button:hover {
 
 .nav-container {
     width: 100%;
-    height: 76%;
+    height: 76px;
     position: sticky;
     padding: 10px 20px 10px 20px;
     &>.navbar {
@@ -162,14 +161,14 @@ button:hover {
         outline: none;
         transition: border 0.3s ease;
         &:focus {
-            border-color: #c4e0fe;
+            border-color: #007bff;
         }
     }
 }
 
 .send-btn {
     padding: 12px 20px;
-    background-color: #4381a4;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 6px;
@@ -177,7 +176,7 @@ button:hover {
     font-weight: 600;
     transition: background-color 0.3s ease;
     &:hover {
-        background-color: #e8c5ed;
+        background-color: #0056b3;
     }
 }
 
